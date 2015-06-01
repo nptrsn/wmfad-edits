@@ -1,0 +1,32 @@
+@import "../global/variables.import.less";
+
+button {
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  background: black;
+  padding: 15px 20px;
+  border: 0;
+
+  .arrow {
+    padding: 10px 5px 0 0;
+    font-size: 3rem;
+    color: @color-gold;
+    position: relative;
+    bottom: 3px;
+    padding-left: 10px;
+    vertical-align: middle;
+  }
+}
+
+.button-wrap {
+  width: 100%;
+  text-align: center;
+
+  &.video-buttons {
+    padding: 15px 0 5px 0;
+    button { margin-right: 20px; }
+  }
+}
+
+.thirds-buttons { text-align: left; }
