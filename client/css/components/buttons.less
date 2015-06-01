@@ -8,16 +8,24 @@ button {
   padding: 15px 20px;
   border: 0;
 
-  .arrow {
-    padding: 10px 5px 0 0;
-    font-size: 3rem;
-    color: @color-gold;
+  &::after {
+    content: url("/img/arrow-small.png");
     position: relative;
-    bottom: 3px;
-    padding-left: 10px;
-    vertical-align: middle;
+    padding-left: 15px;
+    top: 4px;
   }
+
 }
+
+  /*&:after {
+    content: '';
+    width: 100px;
+    height: 100px;
+    background: url("img/arrow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+}*/
 
 .button-wrap {
   width: 100%;

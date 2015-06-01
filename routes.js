@@ -3,14 +3,9 @@ Router.configure( {
   layoutTemplate : 'MainLayout'
 } );
 
-// Authentication – Register
-Router.route( '/register', function() {
-  this.render( 'Auth_Register' );
-} );
-
-// Authentication – Login
-Router.route( '/login', function() {
-  this.render( 'Auth_Login' );
+// Login
+Router.route( '/', function() {
+  this.render( 'SignUp' );
 } );
 
 // Label Maker – Category
